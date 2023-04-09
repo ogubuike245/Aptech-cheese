@@ -1,0 +1,14 @@
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin button-primary {
+  height: 100%;
+  width: 100%;
+  color: var(--white);
+  background: var(--btn__primary);
+  outline: none;
+  border: none;
+}

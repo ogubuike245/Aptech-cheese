@@ -1,0 +1,21 @@
+@import "mixins";
+@import "constant";
+@import "screenMax699";
+@import "screenMin700";
+@import "screenMin960";
+@import "screenMin1281";
+
+/* BOTTOM STICKER STYLE */
+
+.footer-wltp {
+  background: rgba(0, 0, 0, 0.9);
+  bottom: 0;
+  color: #fff;
+  font-size: 16px;
+  left: 0;
+  padding: 3px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  z-index: 1000;
+}

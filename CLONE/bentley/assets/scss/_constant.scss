@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "BentleyLight";
+  src: url("../fonts/BentleyLight.ttf") format("truetype");
+}
+
+:root {
+  --white: #ffffff;
+  --navText: rgb(91, 91, 91);
+  --bordercolor: rgb(148, 193, 29);
+  --btn__primary: rgb(51, 91, 76);
+  --btn__primary__hover: rgb(8, 49, 34);
+  --BentleyLight: "BentleyLight";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--BentleyLight);
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none !important;
+}
